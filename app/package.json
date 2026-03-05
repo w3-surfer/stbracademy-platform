@@ -59,6 +59,7 @@
     "sanity": "^5.13.0",
     "sanity-plugin-markdown": "^8.0.5",
     "styled-components": "^6.3.11",
+    "styled-jsx": "^5.1.7",
     "tailwind-merge": "^2.5.0"
   },
   "devDependencies": {

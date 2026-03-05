@@ -36,11 +36,18 @@ Thumbs.db
 .vercel
 
 # Sanity
-apps/web/sanity/.sanity
+app/sanity/.sanity
 
 # Testing
 coverage
 .nyc_output
+
+# Anchor / Solana
+onchain-academy/target
+onchain-academy/.anchor
+
+# Wallets (keypairs)
+wallets/
 
 # Misc
 *.pem
