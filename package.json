@@ -1,0 +1,23 @@
+{
+  "name": "superteam-academy-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace web dev",
+    "build": "yarn workspace web build",
+    "start": "yarn workspace web start",
+    "lint": "yarn workspace web lint",
+    "build:web": "cd apps/web && npm run build",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:fresh": "yarn workspace web dev:fresh"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "overrides": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
